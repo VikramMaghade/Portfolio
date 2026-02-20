@@ -1,0 +1,79 @@
+/* header Starts Here */
+
+/* Header Ends Here */
+
+/* ---------------------------- */
+
+/* Main Starts Here */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .image {
+    width: 25%;
+    height: 30vw;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+} */
+
+/* .image img {
+    position: absolute;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+} */
+
+/* Main Ends Here */
+
+/* ---------------------------- */
+
+/* Footer Starts Here */
+
+.download {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.download-btn {
+    display: block;
+    width: 25%;
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+}
+
+.download-btn:hover {
+    /* background-color: var(--bg-color); */
+    background-color: green;
+    color: var(--text-color);
+}
+
+/* Footer Ends Here */
+
+/* ---------------------------- */
+
+/* Media Starts Here */
+
+/* Small devices (phones, less than 600px) */
+@media (max-width: 600px) {}
+
+/* Medium devices (tablets, 600px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {}
+
+/* Large devices (desktops, more than 1024px) */
+@media (min-width: 1025px) {}
+
+/* Media Ends Here */
