@@ -64,6 +64,12 @@ hamburger.addEventListener('click', () => {
 // Footer Starts Here
 
 document.addEventListener("DOMContentLoaded", function () {
+    const yearSpans = document.querySelectorAll(".year");
+    const currentYear = new Date().getFullYear();
+    yearSpans.forEach(span => span.textContent = currentYear);
+});
+
+document.addEventListener("DOMContentLoaded", function () {
     const yearSpan = document.getElementById("year");
     const currentYear = new Date().getFullYear();
     yearSpan.textContent = currentYear;

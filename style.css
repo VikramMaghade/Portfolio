@@ -44,7 +44,7 @@ header {
     top: 0;
     z-index: 999;
     text-align: center;
-    margin: 10px;
+    padding: 10px;
 }
 
 .logo a {
@@ -81,7 +81,7 @@ nav a.active {
 }
 
 nav ul li a:hover {
-    color: black;
+    color: var(--bg-color);
     background-color: red;
 }
 
@@ -118,8 +118,8 @@ body.dark-theme #theme-icon {
     height: 3px;
     background-color: var(--bg-color);
     color: var(--text-color);
-    background-color: var(--text-color);
-    color: var(--bg-color);
+    /* background-color: var(--text-color);
+    color: var(--bg-color); */
     transition: all 0.4s ease;
 }
 
@@ -196,6 +196,17 @@ footer {
     bottom: 0;
     text-align: center;
     margin: 10px;
+    color: var(--text-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+footer abbr{
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 /* Footer Ends Here */
