@@ -1,6 +1,3 @@
-# Portfolio
-Presenting Myself
-
 Vikram Maghade
     MERN Stack Web Developers
 
