@@ -28,6 +28,7 @@ MERN, MEAN, Java Full Stack
         4. NodeJS (Backend)
 
 Web Dev
+
     Building / Developers Team
     Testing Team
         1. Manual
@@ -36,6 +37,7 @@ Web Dev
     Maintenance Team / Support Team
 
 SDLC (Software Development Life Cycle)
+
     Waterfall Modal
     Agile Modal
     Spiral Modal
@@ -55,6 +57,7 @@ URL - Uniform Resource Locator
     Home    - Path / Location
 
 Protocol
+
     Set of Rules / Instruction
         http    - Hyper Text Transfer Protocol
         https   - Hyper Text Transfer Protocol Secure
@@ -66,14 +69,17 @@ Protocol
         ip      - Internet Protocol (ipv4 & ipv6)
 
 Sub Domain
+
     Used to organize, separate, or structure different sections of a website.
         Exmpl. - Web, Mail, Map, Drive, Photos, Calender, Etc.
 
 Domain Name
+
     Unique Identifier
         Exmpl. - Google, Facebook, Instagram, Amazon, Etc.
 
 TLD - Top Level Domain
+
     Domain Extension
         Exmpl.
             .com - Commercial
@@ -84,6 +90,7 @@ TLD - Top Level Domain
             .in  - Region-Specific
 
 Code Editing Application
+
     Offline
         1. Notepad
         2. Notepad++
